@@ -1,0 +1,193 @@
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#slogan {
+    font-family: 'Koulen', cursive;
+}
+
+ul li{
+    padding-top: 20px;
+}
+ul li a:hover{
+    text-decoration: none;
+    color: gray;
+}
+ul li a{
+    color: white;
+}
+
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+
+  .jumbotron {
+    position: relative;
+    overflow: hidden;
+    background-color:black;
+    
+}
+
+#video {
+    padding-bottom: 150px;
+}
+
+#hover1, #hover2, #hover3 {
+    transition: transform .2s;
+}
+#hover1:hover, #hover2:hover, #hover3:hover {
+    transform: scale(1.1);
+    -webkit-filter: brightness(175%);
+}
+
+#home_hover, #about_hover, #service_hover, #navbardrop {
+    transition: transform .5s;
+}
+
+#home_hover:hover, #about_hover:hover, #service_hover:hover, #navbardrop:hover {
+    transform: translateY(15px);
+}
+
+
+#slogan {
+    padding-top:200px;
+}
+.navbar-toggler{
+    z-index: 2;
+}
+.jumbotron video{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    opacity:0.5;
+}
+.jumbotron .container {
+    z-index: 2;
+    position: relative;
+    
+    /* padding-bottom: 500px; */
+}
+
+.nav-item{
+    margin-right: 30px;
+    padding-right: 10px;
+}
+
+.nav-item a h3{
+    font-size: 20px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: gray;
+    text-decoration: none;
+  }
+  .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.footer-copyright a:hover{
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-copyright a{
+    color: white;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    background-color: #630606
+}
+
+.footer-copyright{
+    background-color:  #4b0505;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav{
+    position: relative;
+    background: none;
+    margin-top:-40px;
+    margin-bottom: 50px;
+    z-index: 2;
+}
+
+.penjelasan{
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.container-card{
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px
+}
+
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    background-color: #EEEEEE ;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;    
+    border-color: black;
+}
+
+video{
+    /* border-bottom-style: solid;
+    border-bottom-width:5px ; */
+}
+
+.fs-1{
+    font-weight: bold;
+    color: rgb(206, 60, 67);
+}
+
+body{
+    background-color:#00092C;
+    
+}
+.logo{
+    text-align: center;
+    padding-top:125px;
+    padding-bottom: 100px;
+}
