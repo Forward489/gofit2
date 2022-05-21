@@ -72,6 +72,12 @@ ul li a{
 }
 
 
+.map{
+    width: 400px;
+    height: 315px;
+
+}
+
 #slogan {
     padding-top:200px;
 }
